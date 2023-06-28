@@ -1,6 +1,6 @@
 package com.ivoyant.learnfactorybean.service;
 
-import org.springframework.stereotype.Component;
+import com.ivoyant.deliverylib.service.DeliveryService;
 import org.springframework.stereotype.Service;
 
 @Service

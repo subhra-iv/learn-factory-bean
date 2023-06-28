@@ -1,6 +1,6 @@
 package com.ivoyant.learnfactorybean.controller;
 
-import com.ivoyant.learnfactorybean.model.DeliveryRequest;
+import com.ivoyant.deliverylib.model.DeliveryRequest;
 import com.ivoyant.learnfactorybean.service.DeliveryRegistry;
 import com.ivoyant.sdlibrary.HelloLibraryService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,10 +21,5 @@ public class DeliveryController {
         String response = "";
         response = deliveryRegistry.getServiceBean(deliveryRequest.getDeliveryMethod()).deliver(deliveryRequest);
         return response;
-    }
-
-    @GetMapping("/")
-    public String callCustomLib(){
-        return helloLibraryService.sayHello();
     }
 }

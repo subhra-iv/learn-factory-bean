@@ -1,7 +1,7 @@
 package com.ivoyant.learnfactorybean.service.deliveryServiceImpl;
 
-import com.ivoyant.learnfactorybean.model.DeliveryRequest;
-import com.ivoyant.learnfactorybean.service.DeliveryService;
+import com.ivoyant.deliverylib.model.DeliveryRequest;
+import com.ivoyant.deliverylib.service.DeliveryService;
 import org.springframework.stereotype.Service;
 
 @Service("UberEats")
